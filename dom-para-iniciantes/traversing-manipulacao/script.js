@@ -28,38 +28,38 @@ h1.innerText = <p>Novo titulo</p>
 
 // transversing = como navegar pelo DOM, utilizando suas propriedades e metodos
 
-const lista = document.querySelector(".animais-lista");
+// const lista = document.querySelector(".animais-lista");
 
-lista.parentElement; // pai
-console.log(lista.parentElement);
+// lista.parentElement; // pai
+// console.log(lista.parentElement);
 
-lista.parentElement.parentElement; // pai do pai
-console.log(lista.parentElement.parentElement);
+// lista.parentElement.parentElement; // pai do pai
+// console.log(lista.parentElement.parentElement);
 
-lista.previousElementSibling; // elemento acima
-console.log(lista.previousElementSibling);
+// lista.previousElementSibling; // elemento acima
+// console.log(lista.previousElementSibling);
 
-lista.nextElementSibling; // elemento abaixo
-console.log(lista.nextElementSibling);
+// lista.nextElementSibling; // elemento abaixo
+// console.log(lista.nextElementSibling);
 
-const filhosDaLista = lista.children; // HTMLCollection com os filhos
-console.log(filhosDaLista);
+// const filhosDaLista = lista.children; // HTMLCollection com os filhos
+// console.log(filhosDaLista);
 
-// const transformandoEmArray = Array.from(filhosDaLista);
-// transformandoEmArray.forEach((item) => {
-//   console.log(item);
-// });
+// // const transformandoEmArray = Array.from(filhosDaLista);
+// // transformandoEmArray.forEach((item) => {
+// //   console.log(item);
+// // });
 
-const primeiroFilho = lista.children[0]; // com o primeiro filho
-console.log(primeiroFilho);
+// const primeiroFilho = lista.children[0]; // com o primeiro filho
+// console.log(primeiroFilho);
 
-const ultimoFilho = lista.children[--lista.children.length]; // ultimo filho
-console.log(ultimoFilho);
+// const ultimoFilho = lista.children[--lista.children.length]; // ultimo filho
+// console.log(ultimoFilho);
 
-const todasLi = lista.querySelectorAll("li"); // todas as Li
-console.log(todasLi);
+// const todasLi = lista.querySelectorAll("li"); // todas as Li
+// console.log(todasLi);
 
-lista.querySelector("li:last-children"); // ultimo li
+// lista.querySelector("li:last-children"); // ultimo li
 
 //---------------------------------------------------------------------------------
 
