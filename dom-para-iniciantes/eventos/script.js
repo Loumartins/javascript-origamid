@@ -51,17 +51,17 @@ linkExterno.addEventListener("click", clickNoLink);
 
 //diferentes eventos = existem diversos eventos como *click* *scroll* *resize* *keydow* *keyup* *mouseenter*. Eventos podem ser adicionados a diferentes elementos como o *window* e o *document* tambem
 
-const h1 = document.querySelector("h1");
+// const h1 = document.querySelector("h1");
 
-function callback(event) {
-  console.log(event.type, event);
-}
+// function callback(event) {
+//   console.log(event.type, event);
+// }
 
-h1.addEventListener("click", callback);
-h1.addEventListener("mouseenter", callback);
-window.addEventListener("scroll", callback);
-window.addEventListener("resize", callback);
-window.addEventListener("keydow", callback);
+// h1.addEventListener("click", callback);
+// h1.addEventListener("mouseenter", callback);
+// window.addEventListener("scroll", callback);
+// window.addEventListener("resize", callback);
+// window.addEventListener("keydow", callback);
 
 //forEach em eventos = o metodo addEventListener é adicionado a um unico elemento, entao e necessario um loop entre elementos de uma lista para adicionarmos a cada um deles
 
